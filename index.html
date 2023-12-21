@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body style="display: flex;justify-content: center;flex-direction: column;align-items: center;">
+    <p>
+    <label for="first_name">Firstname :</label><br>
+    <input type="text" id="first_name">
+    </p>
+    <p>
+      <label for="second_name">Lastname :</label><br>
+      <input type="text" id="second_name">
+    </p>
+    <p>
+      <label for="address">Address :</label><br>
+      <textarea name="address" placeholder="Enter your address" id="address"></textarea>
+    </p>
+    <p>
+      <label for="pin_code">Pin-Code :</label><br>
+      <input type="tel" id="pin_code">
+    </p>
+    <p>
+      <label>Please Select your Gender</label><br>
+      <input type="radio" name="gender"  
+      value="male" id="human">Male
+      <input type="radio" name="gender" value="female" id="human">Female
+      <input type="radio" name="gender" value="others" id="human">Others
+    </p>
+    <p>
+      <label for="choice_of_food">Choice of food</label><br>
+      <select name="foods" id="opinion_of_food">
+        <option>---Select---</option>
+        <option value="food">Continental</option>
+        <option value="food">Chinese</option>
+        <option value="food">Italian</option>
+        <option value="food">Indian</option>
+        <option value="food">Turkey</option>
+      </select>
+    </p>
+    <p>
+      <label for="state">State :</label><br>
+      <select name="states" id="opinion_of_state">
+        <option>---Select---</option>
+        <option value="state">Arunachal Pradesd</option>
+        <option value="state">Andra Pradesh</option>
+        <option value="state">Bihar</option>
+        <option value="state">Bengal</option>
+        <option value="state">Chattisgarh</option>
+        <option value="state">Delhi</option>
+        <option value="state">Goa</option>
+        <option value="state">Himachal Pradesh</option>
+        <option value="state">Jammu & Kashmir</option>
+        <option value="state">Kerala</option>
+        <option value="state">Karnataka</option>
+        <option value="state">Maharastra</option>
+        <option value="state">Nagaland</option>
+        <option value="state">Puducherry</option>
+        <option value="state">Tamilnadu</option>
+      </select>
+    </p>
+    <p>
+      <label for="country">Please Select your country</label><br>
+      <select name="Countries" id="opinion_of_country">
+        <option>---Select---</option>
+        <option value="country">India</option>
+        <option value="country">China</option>
+        <option value="country">America</option>
+        <option value="country">Russia</option>
+      </select>
+    </p>
+    <button type="submit" id="button">SUBMIT</button>
+  <br></body>
+<div class="table">
+  <table bgcolor="black" style="text-align: center;">
+    <tr bgcolor="gray">
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Address</th>
+      <th>Pin-code</th>
+      <th>Gender</th>
+      <th>Choice of food</th>
+      <th>State</th>
+      <th>country</th>
+    </tr>
+    <tr bgcolor="lightgray">
+      <td id="get_first_name">A</td>
+      <td id="get_second_name">B</td>
+      <td id="get_address">C</td>
+      <td id="get_pin">D</td>
+      <td id="get_gender">E</td>
+      <td id="get_food">F</td>
+      <td id="get_state">G</td>
+      <td id="get_country">H</td>
+    </tr>
+  </table>
+</div>
+<!-- Script -->
+<script src="script.js"></script>
+</body>
+</html>
